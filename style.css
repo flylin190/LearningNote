@@ -1,0 +1,43 @@
+body {
+    background-color: #25dce9; /* Light background color */
+    font-family: 'Microsoft JhengHei', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0
+}
+h1 {
+    text-align: center; /* Center align the h1 title */
+}
+
+h2 {
+    text-align: center; /* Center align the h1 title */
+    color:bisque
+}
+
+ul {
+    
+    column-count: 5;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin-bottom: 600px;
+}
+li {
+
+    margin-bottom: 10px; /* Add some space between list items */
+    text-align: center;
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
