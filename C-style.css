@@ -20,14 +20,6 @@ h1 {
     background-color: rgb(224, 243, 255);
 
 }
-p{
-    max-width: 500px;
-}
-.content {
-
-    display: flex;
-    justify-content: space-evenly;
-}
 
 section {
     background-color: #ffffff;
@@ -35,20 +27,18 @@ section {
     height: 590px;
 }
 
-.content h2{
-    margin-left: 0px;
-    padding: 10px;
+ul {
+    column-count: 4;
+    list-style-type: none; 
+    padding: 0; 
 }
 
-.content p {
-    margin-left: 25px;
+li {
+    margin-bottom: 20px; 
+    text-align: center;
+    font-size: 20px;
+    color:black;
 }
-
-li{
-    max-width: 500px;
-    margin-left: 35px;
-}
-
 li a{
     color: rgb(83, 83, 83);
 }
@@ -59,27 +49,12 @@ body a{
 
 footer {
     background-color: #0f637c;
-    color: white;
-    text-align: center;
-    padding: 43px;
-}
-
-h3{
-    font-size: 25px;
-    padding: 10px;
-}
-
-
-img {
-    max-width: 80%;
-    height: auto;
-    padding-top: 20px;
-}
-
-footer {
-    background-color: #0f637c;
-    color: white;
-    text-align: center;
-    padding: 43px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
     
+}
+
+footer a{
+    color: white;
 }
