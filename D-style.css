@@ -33,8 +33,8 @@ p{
 
 section {
     background-color: #ffffff;
-    padding-top: 100px;
-    height: 590px;
+    padding-top: 70px;
+    height: 620px;
 }
 
 .content h2{
@@ -44,10 +44,11 @@ section {
 
 .content p {
     margin-left: 25px;
+    max-width: 25vw;
 }
 
 li{
-    max-width: 500px;
+    max-width: 25vw;
     margin-left: 35px;
 }
 
@@ -65,8 +66,8 @@ h3{
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 25vw;
+
 }
 
 footer {
@@ -80,4 +81,66 @@ footer {
 footer a{
     color: white;
 
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 1000px;
+        margin:0 auto;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 700px;
+        margin:0 auto;
+    }
+
+    section {
+
+        padding-bottom: 40vh;
+        
+    }
+    li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        width: 100%;
+        margin:0 auto;
+    }
+    li {
+        width: 33%;
+    }
+
+    section {
+
+        padding-bottom: 30vh;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+            width: 100%;
+            margin:0 auto;
+    }
+    li {
+            width: 33%;
+    }
+    
+    section {
+    
+            padding-bottom: 30vh;
+    
+    }
+    li a{
+            font-size:17px;
+    }
 }
