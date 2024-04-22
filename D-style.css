@@ -81,7 +81,7 @@ footer a{
     }
     .content p {
         margin-left: 25px;
-        max-width: 420px;
+        width: 420px;
     }
     .image li{
         max-width: 420px;
@@ -93,22 +93,7 @@ footer a{
 
 }
 
-/* @media screen and (max-width:1000px) {
-    body {
-        width: 800px;
-    }
-    .content p {
-        max-width: 360px;
-    }
-    .image li{
-        max-width: 360px;
-        margin-left: 25px;
-    }
-    img {
-        width: 360px;
-    }
 
-} */
 
 @media screen and (max-width:800px) {
     body {
@@ -126,7 +111,9 @@ footer a{
     }
     .content p {
         margin-left:10%;
-        max-width: 550px;
+        width: 595px;
+
+
     }
     .image{
         max-width: 600px;
@@ -146,20 +133,8 @@ footer a{
             width: 100%;
 
     }
+    .content p{
+        width:85%;
+    }
+
 }
-
-    /* .content h2{
-        margin-left: 15% ;
-    }
-    .content p {
-        margin-left:15%;
-    
-        max-width: 500px;
-    }
-    .image h3, img{
-        margin-left:5%;
-
-    }
-    .image li{
-        margin-left: 15%;
-    }
