@@ -85,6 +85,7 @@ footer a{
     }
     .image li{
         width: 420px;
+        margin-left: 35px;
     }
 
     img {
@@ -115,15 +116,18 @@ footer a{
 
 
     }
-    .image{
-        width: 600px;
-    }
-    .image h3, img{
-        margin-left:5%;
-
-    }
-    .image li{
+    .image li {
+        width: 595px;
         margin-left: 15%;
+    }
+    .image h3 {
+        margin-left:5%;
+    }
+
+    .image img{
+        margin-left:10%;
+        margin-top: 5%;
+
     }
 
 }
@@ -136,8 +140,8 @@ footer a{
     .content p{
         width:85%;
     }
-    .image{
-        width: 75%;
+    .image li{
+        width: 80%;
     }
 
 }
