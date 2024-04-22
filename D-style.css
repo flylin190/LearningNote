@@ -84,7 +84,7 @@ footer a{
         width: 420px;
     }
     .image li{
-        max-width: 420px;
+        width: 420px;
     }
 
     img {
@@ -116,7 +116,7 @@ footer a{
 
     }
     .image{
-        max-width: 600px;
+        width: 600px;
     }
     .image h3, img{
         margin-left:5%;
@@ -135,6 +135,9 @@ footer a{
     }
     .content p{
         width:85%;
+    }
+    .image{
+        width: 75%;
     }
 
 }
