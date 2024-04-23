@@ -84,7 +84,7 @@ footer {
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     body {
         width: 100%;
         margin:0 auto;
@@ -105,20 +105,11 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    body {
-            width: 100%;
-
-    }
-    li {
-            width: 33%;
-    }
     
     section {
     
             height: 40vh;
     
     }
-    li a{
-            font-size:17px;
-    }
+
 }
