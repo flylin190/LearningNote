@@ -60,3 +60,63 @@ footer {
 footer a{
     color: white;
 }
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 1000px;
+        margin:0 auto;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 700px;
+        margin:0 auto;
+    }
+
+    section {
+
+        height: 60vh;
+        
+    }
+    li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        width: 100%;
+        margin:0 auto;
+    }
+
+    section {
+
+        height: 50vh;
+        
+    }
+    li {
+        width: 33%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    body {
+            width: 100%;
+
+    }
+    li {
+            width: 33%;
+    }
+    
+    section {
+    
+            height: 40vh;
+    
+    }
+    li a{
+            font-size:17px;
+    }
+}
